@@ -3,124 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trip Rout- Explore o Mundo</title>
+    <title>ExploreMundo - Descubra o Próximo Destino</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo">
-                    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Logo" class="logo-img">
-                    Trip Rout
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="destinos.html">Destinos</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
+
+    <header class="navbar">
+        <div class="container header-flex">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Logo" class="logo-icon">
+                <span>ExploreMundo</span>
             </div>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#">Destinos</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="home" class="hero">
-        <div class="hero-overlay">
-            <div class="hero-content">
-                <h1>Descubra Lugares Extraordinários</h1>
-                <p>Viaje para os destinos mais deslumbrantes do planeta</p>
-                <button class="cta-btn">Explorar Agora</button>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Descubra Lugares Incríveis!</h1>
+            <p>Explore os melhores destinos ao redor do mundo.</p>
+            <a href="#" class="btn-laranja">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section class="destinos">
+        <div class="container">
+            <h2 class="titulo-sessao">Destinos Populares</h2>
+            <div class="grid-destinos">
+                <a href="praias.html" target="_blank" class="card-link">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&q=80" alt="Praias">
+                        <div class="card-info">
+                            <h3>Praias Paradisiacas</h3>
+                            <p>Conheça as mais belas praias</p>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500&q=80" alt="Montanhas">
+                    <div class="card-info">
+                        <h3>Montanhas</h3>
+                        <p>Aventuras nas alturas</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?auto=format&fit=crop&w=500&q=80" alt="Cidades">
+                    <div class="card-info">
+                        <h3>Cidades Históricas</h3>
+                        <p>Explore a cultura e história</p>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+                <a href="#" class="btn-laranja">Ver Mais Destinos</a>
             </div>
         </div>
     </section>
 
-    <section id="destinos" class="destinations">
-        <div class="container">
-            <h2>Destinos em Destaque</h2>
-            <div class="dest-grid">
-                <div class="dest-card">
-                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=600&q=80" alt="Montanhas">
-                    <div class="card-content">
-                        <h3>Montanhas Suíças</h3>
-                        <p>Paisagens alpinas de tirar o fôlego</p>
-                        <a href="#" class="learn-more">Saiba Mais</a>
-                    </div>
-                </div>
-                <div class="dest-card">
-                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80" alt="Praia">
-                    <div class="card-content">
-                        <h3>Praias do Caribe</h3>
-                        <p>Águas cristalinas e areias brancas</p>
-                        <a href="#" class="learn-more">Saiba Mais</a>
-                    </div>
-                </div>
-                <div class="dest-card">
-                    <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" alt="Cidade">
-                    <div class="card-content">
-                        <h3>Paris Romântica</h3>
-                        <p>A cidade das luzes e do amor</p>
-                        <a href="#" class="learn-more">Saiba Mais</a>
-                    </div>
-                </div>
-                <div class="dest-card">
-                    <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=600&q=80" alt="Floresta">
-                    <div class="card-content">
-                        <h3>Floresta Amazônica</h3>
-                        <p>A biodiversidade em seu esplendor</p>
-                        <a href="#" class="learn-more">Saiba Mais</a>
-                    </div>
-                </div>
-                <div class="dest-card">
-                    <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=600&q=80" alt="Deserto">
-                    <div class="card-content">
-                        <h3>Desertos do Saara</h3>
-                        <p>Dunas infinitas sob o sol</p>
-                        <a href="#" class="learn-more">Saiba Mais</a>
-                    </div>
-                </div>
-                <div class="dest-card">
-                    <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=600&q=80" alt="Japão">
-                    <div class="card-content">
-                        <h3>Tóquio Moderna</h3>
-                        <p>Tecnologia e tradição em harmonia</p>
-                        <a href="destinos.html" class="learn-more">Saiba Mais</a>
-                    </div>
-                </div>
-            </div>
+    <section class="sobre">
+        <div class="container text-center">
+            <h2 class="titulo-sessao">Sobre Nós</h2>
+            <p>Somos apaixonados por viagens e queremos ajudar você a explorar o mundo!</p>
+            <a href="#" class="btn-laranja">Leia Mais</a>
         </div>
     </section>
 
-    <section id="sobre" class="about">
+    <section class="contato">
         <div class="container">
-            <h2>Sobre Nós</h2>
-            <p>Oferecemos experiências únicas de viagem, conectando você aos lugares mais incríveis do mundo. Nossa paixão é criar memórias inesquecíveis.</p>
-            <div class="stats">
-                <div class="stat">
-                    <h4>500+</h4>
-                    <p>Destinos Explorados</p>
+            <div class="grid-contato">
+                <div class="formulario">
+                    <h3 class="subtitulo-contato">Fale Conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Nome">
+                        <input type="email" placeholder="E-mail">
+                        <textarea placeholder="Mensagem"></textarea>
+                        <button type="submit" class="btn-azul">Enviar</button>
+                    </form>
                 </div>
-                <div class="stat">
-                    <h4>10k+</h4>
-                    <p>Viajantes Satisfeitos</p>
-                </div>
-                <div class="stat">
-                    <h4>15</h4>
-                    <p>Anos de Experiência</p>
+                <div class="mapa-info">
+                    <h3 class="subtitulo-contato">Onde Estamos</h3>
+                    <div class="mapa-placeholder">
+                        <img src="https://t2.tudocdn.net/138083?w=824&h=494">
+                    </div>
+                    <div class="info-detalhes">
+                        <p><strong>email:</strong> contato@exploremundo.com</p>
+                        <p><strong>(11) 1234-5678</strong></p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2023 Viagens Incríveis. Todos os direitos reservados.</p>
-            <div class="social-links">
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">Twitter</a>
-            </div>
+            <p>&copy; 2024 ExploreMundo - Todos os direitos reservados</p>
         </div>
     </footer>
+
 </body>
 </html>

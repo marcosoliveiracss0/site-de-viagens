@@ -1,47 +1,56 @@
-# Viagens Incríveis
+# Site de Viagens - ExploreMundo
 
-Um site moderno de viagens que apresenta destinos incríveis ao redor do mundo.
+Projeto simples de site de viagens com visual inspirado no começo dos anos 2010. A proposta é ser um site funcional, fácil de navegar, com imagens de destinos e páginas internas.
 
-## Descrição
+## Arquivos do projeto
 
-Este projeto é um site de viagens responsivo que destaca destinos populares com imagens deslumbrantes e informações detalhadas. A página principal mostra uma seleção de destinos em destaque, e há uma página dedicada a Tóquio com mais informações e fotos.
+- `index.html` - página principal.
+- `praias.html` - página de destino específico (praias).
+- `style.css` - estilos de layout, cores e responsividade.
 
-## Funcionalidades
+## Estrutura da página principal (`index.html`)
 
-- Design responsivo para dispositivos móveis e desktop
-- Navbar fixa com navegação suave
-- Seções de hero com imagens de fundo
-- Grid de destinos com efeitos de hover
-- Página detalhada para Tóquio com informações, fotos e atrações
-- Footer com links para redes sociais
+1. Header com menu (Início, Destinos, Sobre, Contato) e logo.
+2. Seção hero com imagem de fundo de rio/montanhas e texto chamativo.
+3. Seção de Destinos Populares em cards:
+   - Praias Paradisiacas (link para `praias.html`)
+   - Montanhas
+   - Cidades Históricas
+4. Seção Sobre com texto e botão.
 
-## Como Usar
+## Estrutura da página de destino (`praias.html`)
 
-1. Clone ou baixe os arquivos do projeto
-2. Abra o arquivo `index.html` em um navegador web
-3. Navegue pelas páginas usando os links no menu
+1. Header com mesmo menu visual da página principal.
+2. Seção interna com título e cards de praias:
+   - Maldivas
+   - Caribe
+   - Bali
+   - Goa
+   - Fiji
+   - Tailândia
+   - Ibiza
+   - Nova Zelândia
+   - Portugal
+3. Botão Voltar para Início.
 
-## Estrutura do Projeto
+## Estilo e aparência
 
-- `index.html` - Página principal do site
-- `destinos.html` - Página detalhada sobre Tóquio
-- `style.css` - Arquivo de estilos CSS
-- `README.md` - Este arquivo
+- Layout simples e robusto, inspirado em sites antigos (2010).
+- Navbar com gradiente de azul e links em branco.
+- Cards com borda, sombra leve e padronização de imagens.
+- Hero com imagem de fundo e fundo escuro sem efeitos modernos exagerados.
+- Responsividade básica para telas médias e pequenas.
 
-## Tecnologias Utilizadas
+## Como executar
 
-- HTML5
-- CSS3 (Flexbox e Grid)
-- Google Fonts (Roboto)
+1. Abra `index.html` no navegador.
+2. Clique em "Praias Paradisiacas" para abrir `praias.html`.
 
-## Imagens
+## Observações
 
-As imagens são fornecidas pelo Unsplash e são de uso gratuito.
+- O site não usa frameworks externos (apenas HTML e CSS puros).
+- As imagens vieram de Unsplash via URL externa.
 
-## Contribuição
+## Autores
 
-Sinta-se à vontade para contribuir com melhorias ou novos destinos!
-
-## Licença
-
-Este projeto é de uso educacional.
+- Desenvolvido por estudande (criação via assistência técnica) para demonstração de tema de viagens.
